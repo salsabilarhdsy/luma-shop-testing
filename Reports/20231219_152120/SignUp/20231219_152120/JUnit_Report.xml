@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SignUp" time="163.711" tests="4" failures="1" errors="0">
+   <testsuite name="SignUp" tests="4" failures="1" errors="0" time="163.711" skipped="0" timestamp="2023-12-19 15:21:35" hostname="RENUKW - DESKTOP-I2EJ8U7" id="Test Suites/SignUp">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\01. SALSABILA RAHADATUL AISY\\Certification Katalon\\luma-shop\\Reports\\20231219_152120\\SignUp\\20231219_152120"/>
+         <property name="logFiles" value="D:\\01. SALSABILA RAHADATUL AISY\\Certification Katalon\\luma-shop\\Reports\\20231219_152120\\SignUp\\20231219_152120\\execution0.log"/>
+         <property name="attachments" value="D:\\01. SALSABILA RAHADATUL AISY\\Certification Katalon\\luma-shop\\Reports\\20231219_152120\\SignUp\\20231219_152120\\1702974214396.png, D:\\01. SALSABILA RAHADATUL AISY\\Certification Katalon\\luma-shop\\Reports\\20231219_152120\\SignUp\\20231219_152120\\1702974214621.png"/>
+         <property name="hostName" value="RENUKW - DESKTOP-I2EJ8U7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Edge Chromium 120"/>
+         <property name="hostAddress" value="192.168.100.244"/>
+         <property name="sessionId" value="4d18d722c77f932fcf80a2d959f9f454"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SignUp/TCSG_001_Success_Register with valid input" time="45.518" classname="Test Cases/SignUp/TCSG_001_Success_Register with valid input" status="PASSED">
+         <system-out><![CDATA[2023-12-19 15:21:35 - [TEST_CASE][PASSED] - Test Cases/SignUp/TCSG_001_Success_Register with valid input: Test Cases/SignUp/TCSG_001_Success_Register with valid input
+
+2023-12-19 15:21:36 - [TEST_STEP][PASSED] - randomNumber = RandomStringUtils.randomNumeric(5): null
+
+2023-12-19 15:21:36 - [TEST_STEP][PASSED] - username = "salsabilasy": null
+
+2023-12-19 15:21:36 - [TEST_STEP][PASSED] - random_email = username + randomNumber + "@mail.com": null
+
+2023-12-19 15:21:36 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:21:37 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-12-19 15:21:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-19 15:21:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:21:47 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/button_Sign Up")): Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:21:52 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_First Name"), "Salsabila"): Text 'Salsabila' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:21:53 - [MESSAGE][PASSED] - Text 'Salsabila' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:21:53 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Last Name"), "Aisy"): Text 'Aisy' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:21:54 - [MESSAGE][PASSED] - Text 'Aisy' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:21:54 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Email"), random_email): Text 'salsabilasy70905@mail.com' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:21:55 - [MESSAGE][PASSED] - Text 'salsabilasy70905@mail.com' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:21:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SignUp/input_Password"), "R2dZ4hvJ2uiOEdyVG7iA0Q=="): Text ****** has been set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:21:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:21:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SignUp/input_Confirmation Password"), "R2dZ4hvJ2uiOEdyVG7iA0Q=="): Text ****** has been set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:21:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:21:56 - [TEST_STEP][PASSED] - click(findTestObject("SignUp/button_Create Account")): Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:22:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("MyAccount/message_Success Register"), 0): Object 'Object Repository/MyAccount/message_Success Register' is present
+
+2023-12-19 15:22:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-19 15:22:21 - [MESSAGE][PASSED] - Object 'Object Repository/MyAccount/message_Success Register' is present
+
+2023-12-19 15:22:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-19 15:22:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUp/TCSG_002_Failed_Register using registered email" time="73.235" classname="Test Cases/SignUp/TCSG_002_Failed_Register using registered email" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SignUp/TCSG_002_Failed_Register using registered email FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SignUp/message_error' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4780)&#xa;	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:38)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1702974080622.run(TempTestSuite1702974080622.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SignUp/message_error' located by '//*[@id = 'message-error']' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[2023-12-19 15:22:21 - [TEST_CASE][FAILED] - Test Cases/SignUp/TCSG_002_Failed_Register using registered email: Test Cases/SignUp/TCSG_002_Failed_Register using registered email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SignUp/message_error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4780)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702974080622.run(TempTestSuite1702974080622.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SignUp/message_error' located by '//*[@id = 'message-error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+2023-12-19 15:22:21 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:22:21 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-12-19 15:22:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-19 15:22:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:22:39 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/button_Sign Up")): Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:22:46 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:22:46 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_First Name"), "Salsabila"): Text 'Salsabila' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:22:47 - [MESSAGE][PASSED] - Text 'Salsabila' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:22:47 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Last Name"), "Aisy"): Text 'Aisy' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:22:48 - [MESSAGE][PASSED] - Text 'Aisy' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:22:48 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Email"), "salsa@test.com"): Text 'salsa@test.com' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:22:48 - [MESSAGE][PASSED] - Text 'salsa@test.com' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:22:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SignUp/input_Password"), "R2dZ4hvJ2uiOEdyVG7iA0Q=="): Text ****** has been set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:22:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:22:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SignUp/input_Confirmation Password"), "R2dZ4hvJ2uiOEdyVG7iA0Q=="): Text ****** has been set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:22:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:22:50 - [TEST_STEP][PASSED] - click(findTestObject("SignUp/button_Create Account")): Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:22:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-19 15:23:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-19 15:23:02 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("SignUp/message_error"), "There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.", STOP_ON_FAILURE): Verify element text of test object 'Object Repository/SignUp/message_error' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SignUp/message_error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4780)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702974080622.run(TempTestSuite1702974080622.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SignUp/message_error' located by '//*[@id = 'message-error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+2023-12-19 15:23:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'message-error']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-12-19 15:23:34 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SignUp/message_error' located by '//*[@id = 'message-error']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SignUp/message_error' located by '//*[@id = 'message-error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4780)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702974080622.run(TempTestSuite1702974080622.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\01. SALSABILA RAHADATUL AISY\\Certification Katalon\\luma-shop\\Reports\\20231219_152120\\SignUp\\20231219_152120\\1702974214396.png]]
+
+2023-12-19 15:23:34 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/SignUp/message_error' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SignUp/message_error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4780)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702974080622.run(TempTestSuite1702974080622.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SignUp/message_error' located by '//*[@id = 'message-error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|D:\\01. SALSABILA RAHADATUL AISY\\Certification Katalon\\luma-shop\\Reports\\20231219_152120\\SignUp\\20231219_152120\\1702974214621.png]]]]></system-out>
+         <system-err><![CDATA[2023-12-19 15:22:21 - [TEST_CASE][FAILED] - Test Cases/SignUp/TCSG_002_Failed_Register using registered email: Test Cases/SignUp/TCSG_002_Failed_Register using registered email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SignUp/message_error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4780)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702974080622.run(TempTestSuite1702974080622.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SignUp/message_error' located by '//*[@id = 'message-error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUp/TCSG_003_Failed_Register using wrong confirmation password" time="18.055" classname="Test Cases/SignUp/TCSG_003_Failed_Register using wrong confirmation password" status="PASSED">
+         <system-out><![CDATA[2023-12-19 15:23:34 - [TEST_CASE][PASSED] - Test Cases/SignUp/TCSG_003_Failed_Register using wrong confirmation password: Test Cases/SignUp/TCSG_003_Failed_Register using wrong confirmation password
+
+2023-12-19 15:23:34 - [TEST_STEP][PASSED] - randomNumber = RandomStringUtils.randomNumeric(5): null
+
+2023-12-19 15:23:34 - [TEST_STEP][PASSED] - username = "salsabilasy": null
+
+2023-12-19 15:23:34 - [TEST_STEP][PASSED] - random_email = username + randomNumber + "@mail.com": null
+
+2023-12-19 15:23:34 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:23:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-12-19 15:23:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-12-19 15:23:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-19 15:23:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:23:41 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/button_Sign Up")): Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:23:47 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_First Name"), "Salsabila"): Text 'Salsabila' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:23:48 - [MESSAGE][PASSED] - Text 'Salsabila' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:23:48 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Last Name"), "Aisy"): Text 'Aisy' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:23:49 - [MESSAGE][PASSED] - Text 'Aisy' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:23:49 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Email"), random_email): Text 'salsabilasy60932@mail.com' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:23:50 - [MESSAGE][PASSED] - Text 'salsabilasy60932@mail.com' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:23:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SignUp/input_Password"), "R2dZ4hvJ2uiOEdyVG7iA0Q=="): Text ****** has been set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:23:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:23:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SignUp/input_Confirmation Password"), "RigbBhfdqOBGNlJIWM1ClA=="): Text ****** has been set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:23:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:23:51 - [TEST_STEP][PASSED] - click(findTestObject("SignUp/button_Create Account")): Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:23:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SignUp/message_passwordconfirmation-error"), "Please enter the same value again."): Actual text and expected text of test object 'Object Repository/SignUp/message_passwordconfirmation-error' are matched.
+
+2023-12-19 15:23:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/message_passwordconfirmation-error' are matched.
+
+2023-12-19 15:23:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-19 15:23:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUp/TCSG_004_Failed_Register with empty all fields" time="26.46" classname="Test Cases/SignUp/TCSG_004_Failed_Register with empty all fields" status="PASSED">
+         <system-out><![CDATA[2023-12-19 15:23:52 - [TEST_CASE][PASSED] - Test Cases/SignUp/TCSG_004_Failed_Register with empty all fields: Test Cases/SignUp/TCSG_004_Failed_Register with empty all fields
+
+2023-12-19 15:23:52 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:23:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-12-19 15:23:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-19 15:24:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:24:03 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/button_Sign Up")): Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:24:09 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_First Name"), ""): Text '' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:24:11 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:24:11 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Last Name"), ""): Text '' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:24:11 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:24:11 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Email"), ""): Text '' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:24:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:24:12 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Password"), ""): Text '' is set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:24:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:24:13 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Confirmation Password"), ""): Text '' is set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:24:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:24:13 - [TEST_STEP][PASSED] - click(findTestObject("SignUp/button_Create Account")): Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:24:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-19 15:24:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-19 15:24:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SignUp/message_firstname-error"), "This is a required field.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/SignUp/message_firstname-error' are matched.
+
+2023-12-19 15:24:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/message_firstname-error' are matched.
+
+2023-12-19 15:24:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SignUp/message_lastname-error"), "This is a required field.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/SignUp/message_lastname-error' are matched.
+
+2023-12-19 15:24:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/message_lastname-error' are matched.
+
+2023-12-19 15:24:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SignUp/message_emailaddress-error"), "This is a required field.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/SignUp/message_emailaddress-error' are matched.
+
+2023-12-19 15:24:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/message_emailaddress-error' are matched.
+
+2023-12-19 15:24:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SignUp/message_password-error"), "This is a required field.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/SignUp/message_password-error' are matched.
+
+2023-12-19 15:24:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/message_password-error' are matched.
+
+2023-12-19 15:24:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SignUp/message_passwordconfirmation-error"), "This is a required field.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/SignUp/message_passwordconfirmation-error' are matched.
+
+2023-12-19 15:24:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/message_passwordconfirmation-error' are matched.
+
+2023-12-19 15:24:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-19 15:24:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-19 15:21:35 - [TEST_SUITE][FAILED] - SignUp: Test Cases/SignUp/TCSG_002_Failed_Register using registered email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SignUp/message_error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4780)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702974080622.run(TempTestSuite1702974080622.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SignUp/message_error' located by '//*[@id = 'message-error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2023-12-19 15:21:35 - [TEST_SUITE][FAILED] - SignUp: Test Cases/SignUp/TCSG_002_Failed_Register using registered email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/SignUp/message_error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4780)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702974080622.run(TempTestSuite1702974080622.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/SignUp/message_error' located by '//*[@id = 'message-error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

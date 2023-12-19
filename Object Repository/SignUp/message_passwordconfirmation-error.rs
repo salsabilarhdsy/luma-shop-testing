@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message_passwordconfirmation-error</name>
+   <tag></tag>
+   <elementGuidId>0024a966-4909-47ba-8d4a-497661e31630</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'password-confirmation-error']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password-confirmation-error</value>
+      <webElementGuid>afaa88b1-b53e-4fe6-bcf9-e742cb05c0ea</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

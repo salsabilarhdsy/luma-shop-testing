@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Auth,Edge Chromium 120,,,2023-12-19 13:51:34,2023-12-19 13:54:02,2m - 28.135s,FAILED
+,,,,,,,
+Test Cases/SignUp/TCSG_001_Success_Register with valid input,Edge Chromium 120,,,2023-12-19 13:51:35,2023-12-19 13:52:26,51.070s,PASSED
+randomNumber = RandomStringUtils.randomNumeric(5),Edge Chromium 120,,,2023-12-19 13:51:36,2023-12-19 13:51:36,0.068s,PASSED
+"username = ""salsabilasy""",Edge Chromium 120,,,2023-12-19 13:51:36,2023-12-19 13:51:36,0.005s,PASSED
+"random_email = username + randomNumber + ""@mail.com""",Edge Chromium 120,,,2023-12-19 13:51:36,2023-12-19 13:51:36,0.011s,PASSED
+openBrowser(url),Edge Chromium 120,,,2023-12-19 13:51:36,2023-12-19 13:51:47,11.080s,PASSED
+"click(findTestObject(""HomePage/button_Sign Up""))",Edge Chromium 120,,,2023-12-19 13:51:47,2023-12-19 13:51:51,4.012s,PASSED
+"setText(findTestObject(""SignUp/input_First Name""), ""Salsabila"")",Edge Chromium 120,,,2023-12-19 13:51:51,2023-12-19 13:51:52,1.249s,PASSED
+"setText(findTestObject(""SignUp/input_Last Name""), ""Aisy"")",Edge Chromium 120,,,2023-12-19 13:51:52,2023-12-19 13:51:53,0.741s,PASSED
+"setText(findTestObject(""SignUp/input_Email""), random_email)",Edge Chromium 120,,,2023-12-19 13:51:53,2023-12-19 13:51:54,0.708s,PASSED
+"setEncryptedText(findTestObject(""SignUp/input_Password""), ""ugPaP9TfAFilB8cfGYIcUQ=="")",Edge Chromium 120,,,2023-12-19 13:51:54,2023-12-19 13:51:54,0.680s,PASSED
+"setEncryptedText(findTestObject(""SignUp/input_Confirmation Password""), ""ugPaP9TfAFilB8cfGYIcUQ=="")",Edge Chromium 120,,,2023-12-19 13:51:54,2023-12-19 13:51:55,0.624s,PASSED
+"click(findTestObject(""SignUp/button_Create Account""))",Edge Chromium 120,,,2023-12-19 13:51:55,2023-12-19 13:52:17,22.618s,PASSED
+"verifyElementPresent(findTestObject(""MyAccount/message_Success Register""), 0)",Edge Chromium 120,,,2023-12-19 13:52:17,2023-12-19 13:52:26,8.118s,PASSED
+closeBrowser(),Edge Chromium 120,,,2023-12-19 13:52:26,2023-12-19 13:52:26,0.249s,PASSED
+,,,,,,,
+Test Cases/SignUp/TCSG_002_Failed_Register using registered email,Edge Chromium 120,,,2023-12-19 13:52:26,2023-12-19 13:53:22,55.968s,PASSED
+openBrowser(url),Edge Chromium 120,,,2023-12-19 13:52:26,2023-12-19 13:52:41,15.061s,PASSED
+"click(findTestObject(""HomePage/button_Sign Up""))",Edge Chromium 120,,,2023-12-19 13:52:41,2023-12-19 13:52:50,8.630s,PASSED
+"setText(findTestObject(""SignUp/input_First Name""), ""Salsabila"")",Edge Chromium 120,,,2023-12-19 13:52:50,2023-12-19 13:52:51,1.152s,PASSED
+"setText(findTestObject(""SignUp/input_Last Name""), ""Aisy"")",Edge Chromium 120,,,2023-12-19 13:52:51,2023-12-19 13:52:51,0.705s,PASSED
+"setText(findTestObject(""SignUp/input_Email""), ""salsabilasy@gmail.com"")",Edge Chromium 120,,,2023-12-19 13:52:51,2023-12-19 13:52:52,0.655s,PASSED
+"setEncryptedText(findTestObject(""SignUp/input_Password""), ""ugPaP9TfAFilB8cfGYIcUQ=="")",Edge Chromium 120,,,2023-12-19 13:52:52,2023-12-19 13:52:53,0.523s,PASSED
+"setEncryptedText(findTestObject(""SignUp/input_Confirmation Password""), ""ugPaP9TfAFilB8cfGYIcUQ=="")",Edge Chromium 120,,,2023-12-19 13:52:53,2023-12-19 13:52:53,0.634s,PASSED
+"click(findTestObject(""SignUp/button_Create Account""))",Edge Chromium 120,,,2023-12-19 13:52:53,2023-12-19 13:53:08,14.910s,PASSED
+delay(3),Edge Chromium 120,,,2023-12-19 13:53:08,2023-12-19 13:53:11,3.048s,PASSED
+"verifyElementText(findTestObject(""SignUp/message_There is already an account with this email""), ""There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account."", STOP_ON_FAILURE)",Edge Chromium 120,,,2023-12-19 13:53:11,2023-12-19 13:53:22,10.254s,PASSED
+closeBrowser(),Edge Chromium 120,,,2023-12-19 13:53:22,2023-12-19 13:53:22,0.263s,PASSED
+,,,,,,,
+Test Cases/SignUp/TCSG_002_Failed_Register using registered email - Copy,Edge Chromium 120,,,2023-12-19 13:53:22,2023-12-19 13:54:02,40.697s,FAILED
+openBrowser(url),Edge Chromium 120,,,2023-12-19 13:53:22,2023-12-19 13:53:31,9.253s,PASSED
+"click(findTestObject(""HomePage/button_Sign Up""))",Edge Chromium 120,,,2023-12-19 13:53:31,2023-12-19 13:54:02,31.377s,FAILED

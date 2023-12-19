@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Auth" time="9.142" tests="3" failures="3" errors="0">
+   <testsuite name="Auth" tests="3" failures="3" errors="0" time="9.142" skipped="0" timestamp="2023-12-19 13:50:32" hostname="RENUKW - DESKTOP-I2EJ8U7" id="Test Suites/Auth">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\01. SALSABILA RAHADATUL AISY\\Certification Katalon\\luma-shop\\Reports\\20231219_135016\\Auth\\20231219_135017"/>
+         <property name="logFiles" value="D:\\01. SALSABILA RAHADATUL AISY\\Certification Katalon\\luma-shop\\Reports\\20231219_135016\\Auth\\20231219_135017\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="RENUKW - DESKTOP-I2EJ8U7"/>
+         <property name="hostAddress" value="192.168.100.244"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+      </properties>
+      <testcase name="Test Cases/SignUp/TCSG_001_Success_Register with valid input" time="4.802" classname="Test Cases/SignUp/TCSG_001_Success_Register with valid input" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SignUp/TCSG_001_Success_Register with valid input FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)&#xa;	at TCSG_001_Success_Register with valid input.run(TCSG_001_Success_Register with valid input:26)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118&#xa;Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: driver.version: CEdgeDriver&#xa;remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]&#xa;	(No symbol) [0x00007FF7FEE21189]&#xa;	(No symbol) [0x00007FF7FEE575E5]&#xa;	(No symbol) [0x00007FF7FEE56C90]&#xa;	(No symbol) [0x00007FF7FEE526D7]&#xa;	(No symbol) [0x00007FF7FEE4EA79]&#xa;	(No symbol) [0x00007FF7FEE8C640]&#xa;	(No symbol) [0x00007FF7FEE849E3]&#xa;	(No symbol) [0x00007FF7FEE5A5A6]&#xa;	(No symbol) [0x00007FF7FEE59C70]&#xa;	(No symbol) [0x00007FF7FEE5AD24]&#xa;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]&#xa;	(No symbol) [0x00007FF7FEEC7504]&#xa;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]&#xa;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]&#xa;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]&#xa;	BaseThreadInitThunk [0x00007FFAFE697614+20]&#xa;	RtlUserThreadStart [0x00007FFAFFC226A1+33]&#xa;&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#xa;	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init>(RemoteWebDriver.java:131)&#xa;	at org.openqa.selenium.edge.EdgeDriver.&lt;init>(EdgeDriver.java:154)&#xa;	at com.kms.katalon.selenium.driver.CEdgeDriver.&lt;init>(CEdgeDriver.java:14)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[2023-12-19 13:50:33 - [TEST_CASE][FAILED] - Test Cases/SignUp/TCSG_001_Success_Register with valid input: Test Cases/SignUp/TCSG_001_Success_Register with valid input FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_001_Success_Register with valid input.run(TCSG_001_Success_Register with valid input:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+2023-12-19 13:50:34 - [TEST_STEP][PASSED] - randomNumber = RandomStringUtils.randomNumeric(5): null
+
+2023-12-19 13:50:34 - [TEST_STEP][PASSED] - username = "salsabilasy": null
+
+2023-12-19 13:50:34 - [TEST_STEP][PASSED] - random_email = username + randomNumber + "@mail.com": null
+
+2023-12-19 13:50:34 - [TEST_STEP][FAILED] - openBrowser(url): Unable to open browser with url: 'https://magento.softwaretestingboard.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_001_Success_Register with valid input.run(TCSG_001_Success_Register with valid input:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1698039488956.run(Script1698039488956.groovy:26)
+	... 15 more
+)
+
+2023-12-19 13:50:34 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-12-19 13:50:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-19 13:50:37 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://magento.softwaretestingboard.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_001_Success_Register with valid input.run(TCSG_001_Success_Register with valid input:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1698039488956.run(Script1698039488956.groovy:26)
+	... 15 more
+)]]></system-out>
+         <system-err><![CDATA[2023-12-19 13:50:33 - [TEST_CASE][FAILED] - Test Cases/SignUp/TCSG_001_Success_Register with valid input: Test Cases/SignUp/TCSG_001_Success_Register with valid input FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_001_Success_Register with valid input.run(TCSG_001_Success_Register with valid input:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUp/TCSG_002_Failed_Register using registered email" time="2.314" classname="Test Cases/SignUp/TCSG_002_Failed_Register using registered email" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SignUp/TCSG_002_Failed_Register using registered email FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)&#xa;	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118&#xa;Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: driver.version: CEdgeDriver&#xa;remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]&#xa;	(No symbol) [0x00007FF7FEE21189]&#xa;	(No symbol) [0x00007FF7FEE575E5]&#xa;	(No symbol) [0x00007FF7FEE56C90]&#xa;	(No symbol) [0x00007FF7FEE526D7]&#xa;	(No symbol) [0x00007FF7FEE4EA79]&#xa;	(No symbol) [0x00007FF7FEE8C640]&#xa;	(No symbol) [0x00007FF7FEE849E3]&#xa;	(No symbol) [0x00007FF7FEE5A5A6]&#xa;	(No symbol) [0x00007FF7FEE59C70]&#xa;	(No symbol) [0x00007FF7FEE5AD24]&#xa;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]&#xa;	(No symbol) [0x00007FF7FEEC7504]&#xa;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]&#xa;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]&#xa;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]&#xa;	BaseThreadInitThunk [0x00007FFAFE697614+20]&#xa;	RtlUserThreadStart [0x00007FFAFFC226A1+33]&#xa;&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#xa;	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init>(RemoteWebDriver.java:131)&#xa;	at org.openqa.selenium.edge.EdgeDriver.&lt;init>(EdgeDriver.java:154)&#xa;	at com.kms.katalon.selenium.driver.CEdgeDriver.&lt;init>(CEdgeDriver.java:14)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[2023-12-19 13:50:38 - [TEST_CASE][FAILED] - Test Cases/SignUp/TCSG_002_Failed_Register using registered email: Test Cases/SignUp/TCSG_002_Failed_Register using registered email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+2023-12-19 13:50:38 - [TEST_STEP][FAILED] - openBrowser(url): Unable to open browser with url: 'https://magento.softwaretestingboard.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1698039497398.run(Script1698039497398.groovy:20)
+	... 15 more
+)
+
+2023-12-19 13:50:38 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-12-19 13:50:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-19 13:50:40 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://magento.softwaretestingboard.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1698039497398.run(Script1698039497398.groovy:20)
+	... 15 more
+)]]></system-out>
+         <system-err><![CDATA[2023-12-19 13:50:38 - [TEST_CASE][FAILED] - Test Cases/SignUp/TCSG_002_Failed_Register using registered email: Test Cases/SignUp/TCSG_002_Failed_Register using registered email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUp/TCSG_002_Failed_Register using registered email - Copy" time="1.552" classname="Test Cases/SignUp/TCSG_002_Failed_Register using registered email - Copy" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SignUp/TCSG_002_Failed_Register using registered email - Copy FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)&#xa;	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118&#xa;Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: driver.version: CEdgeDriver&#xa;remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]&#xa;	(No symbol) [0x00007FF7FEE21189]&#xa;	(No symbol) [0x00007FF7FEE575E5]&#xa;	(No symbol) [0x00007FF7FEE56C90]&#xa;	(No symbol) [0x00007FF7FEE526D7]&#xa;	(No symbol) [0x00007FF7FEE4EA79]&#xa;	(No symbol) [0x00007FF7FEE8C640]&#xa;	(No symbol) [0x00007FF7FEE849E3]&#xa;	(No symbol) [0x00007FF7FEE5A5A6]&#xa;	(No symbol) [0x00007FF7FEE59C70]&#xa;	(No symbol) [0x00007FF7FEE5AD24]&#xa;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]&#xa;	(No symbol) [0x00007FF7FEEC7504]&#xa;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]&#xa;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]&#xa;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]&#xa;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]&#xa;	BaseThreadInitThunk [0x00007FFAFE697614+20]&#xa;	RtlUserThreadStart [0x00007FFAFFC226A1+33]&#xa;&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#xa;	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init>(RemoteWebDriver.java:131)&#xa;	at org.openqa.selenium.edge.EdgeDriver.&lt;init>(EdgeDriver.java:154)&#xa;	at com.kms.katalon.selenium.driver.CEdgeDriver.&lt;init>(CEdgeDriver.java:14)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[2023-12-19 13:50:40 - [TEST_CASE][FAILED] - Test Cases/SignUp/TCSG_002_Failed_Register using registered email - Copy: Test Cases/SignUp/TCSG_002_Failed_Register using registered email - Copy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+2023-12-19 13:50:40 - [TEST_STEP][FAILED] - openBrowser(url): Unable to open browser with url: 'https://magento.softwaretestingboard.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1698039497398.run(Script1698039497398.groovy:20)
+	... 15 more
+)
+
+2023-12-19 13:50:40 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-12-19 13:50:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-19 13:50:41 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://magento.softwaretestingboard.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at Script1698039497398.run(Script1698039497398.groovy:20)
+	... 15 more
+)]]></system-out>
+         <system-err><![CDATA[2023-12-19 13:50:40 - [TEST_CASE][FAILED] - Test Cases/SignUp/TCSG_002_Failed_Register using registered email - Copy: Test Cases/SignUp/TCSG_002_Failed_Register using registered email - Copy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_002_Failed_Register using registered email.run(TCSG_002_Failed_Register using registered email:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-19 13:50:32 - [TEST_SUITE][FAILED] - Auth: Test Cases/SignUp/TCSG_001_Success_Register with valid input FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_001_Success_Register with valid input.run(TCSG_001_Success_Register with valid input:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2023-12-19 13:50:32 - [TEST_SUITE][FAILED] - Auth: Test Cases/SignUp/TCSG_001_Success_Register with valid input FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://magento.softwaretestingboard.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TCSG_001_Success_Register with valid input.run(TCSG_001_Success_Register with valid input:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1702968617412.run(TempTestSuite1702968617412.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 118
+Current browser version is 120.0.2210.77 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-I2EJ8U7', ip: '192.168.100.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CEdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7FF0A6B12+59570]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF02D8D2+254210]
+	(No symbol) [0x00007FF7FEE21189]
+	(No symbol) [0x00007FF7FEE575E5]
+	(No symbol) [0x00007FF7FEE56C90]
+	(No symbol) [0x00007FF7FEE526D7]
+	(No symbol) [0x00007FF7FEE4EA79]
+	(No symbol) [0x00007FF7FEE8C640]
+	(No symbol) [0x00007FF7FEE849E3]
+	(No symbol) [0x00007FF7FEE5A5A6]
+	(No symbol) [0x00007FF7FEE59C70]
+	(No symbol) [0x00007FF7FEE5AD24]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF2668D9+1118137]
+	(No symbol) [0x00007FF7FEEC7504]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF8B55A+34762]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7FEF83BA9+3609]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7FF265954+1114164]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF038498+298184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032AD4+275204]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF032C02+275506]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7FF026141+223601]
+	BaseThreadInitThunk [0x00007FFAFE697614+20]
+	RtlUserThreadStart [0x00007FFAFFC226A1+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:154)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:14)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewEdgeChromiumDriver(DriverFactory.java:675)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:390)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:264)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

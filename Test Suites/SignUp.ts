@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SignUp</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>2894f99b-8164-4b20-8fe8-b7d1c9c7a87a</testSuiteGuid>
+   <testCaseLink>
+      <guid>e1e9c5d5-e0f5-45d9-bd2c-71c7f880dfe0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SignUp/TCSG_001_Success_Register with valid input</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>03336fe2-dc9a-4031-b9af-52e9213f34eb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a871077b-0c74-4a5f-88aa-6a7aeca32744</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SignUp/TCSG_002_Failed_Register using registered email</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>42d4a261-23be-4302-b443-7bab4956a199</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>10583495-ac68-4c45-931e-a8d8eadaee49</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SignUp/TCSG_003_Failed_Register using wrong confirmation password</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e03eaf07-ca0d-4770-91c9-7629cdb00783</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d220ce54-2d3f-4aa1-bf75-03f3d3260249</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SignUp/TCSG_004_Failed_Register with empty all fields</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b6616495-b79d-4486-8bdb-f9dd6670efc7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

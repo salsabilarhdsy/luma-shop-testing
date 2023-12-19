@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Auth,,,,2023-12-19 13:50:32,2023-12-19 13:50:41,9.142s,FAILED
+,,,,,,,
+Test Cases/SignUp/TCSG_001_Success_Register with valid input,,,,2023-12-19 13:50:33,2023-12-19 13:50:38,4.802s,FAILED
+randomNumber = RandomStringUtils.randomNumeric(5),,,,2023-12-19 13:50:34,2023-12-19 13:50:34,0.042s,PASSED
+"username = ""salsabilasy""",,,,2023-12-19 13:50:34,2023-12-19 13:50:34,0.007s,PASSED
+"random_email = username + randomNumber + ""@mail.com""",,,,2023-12-19 13:50:34,2023-12-19 13:50:34,0.009s,PASSED
+openBrowser(url),,,,2023-12-19 13:50:34,2023-12-19 13:50:38,3.712s,FAILED
+,,,,,,,
+Test Cases/SignUp/TCSG_002_Failed_Register using registered email,,,,2023-12-19 13:50:38,2023-12-19 13:50:40,2.314s,FAILED
+openBrowser(url),,,,2023-12-19 13:50:38,2023-12-19 13:50:40,1.943s,FAILED
+,,,,,,,
+Test Cases/SignUp/TCSG_002_Failed_Register using registered email - Copy,,,,2023-12-19 13:50:40,2023-12-19 13:50:41,1.552s,FAILED
+openBrowser(url),,,,2023-12-19 13:50:40,2023-12-19 13:50:41,1.473s,FAILED

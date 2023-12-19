@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCSG_001_Success_Register with valid input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c87f0e3c-4636-4aa5-ae17-a195b0190c32</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03336fe2-dc9a-4031-b9af-52e9213f34eb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.url</defaultValue>
+      <description></description>
+      <id>03336fe2-dc9a-4031-b9af-52e9213f34eb</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCLG_005_Failed_Login with empty all fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c628e3bc-2a9c-45ac-85cc-894459cdb713</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>336077cd-6e9c-4b70-855b-8498e2a384e4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.url</defaultValue>
+      <description></description>
+      <id>336077cd-6e9c-4b70-855b-8498e2a384e4</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

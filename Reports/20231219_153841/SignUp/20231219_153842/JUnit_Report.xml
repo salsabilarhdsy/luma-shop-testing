@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SignUp" time="287.172" tests="4" failures="0" errors="0">
+   <testsuite name="SignUp" tests="4" failures="0" errors="0" time="287.172" skipped="0" timestamp="2023-12-19 15:38:56" hostname="RENUKW - DESKTOP-I2EJ8U7" id="Test Suites/SignUp">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\01. SALSABILA RAHADATUL AISY\\Certification Katalon\\luma-shop\\Reports\\20231219_153841\\SignUp\\20231219_153842"/>
+         <property name="logFiles" value="D:\\01. SALSABILA RAHADATUL AISY\\Certification Katalon\\luma-shop\\Reports\\20231219_153841\\SignUp\\20231219_153842\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="RENUKW - DESKTOP-I2EJ8U7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Edge Chromium 120"/>
+         <property name="hostAddress" value="192.168.100.244"/>
+         <property name="sessionId" value="ab97718508416d8b0f14dd57aae206dd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SignUp/TCSG_001_Success_Register with valid input" time="150.122" classname="Test Cases/SignUp/TCSG_001_Success_Register with valid input" status="PASSED">
+         <system-out><![CDATA[2023-12-19 15:38:57 - [TEST_CASE][PASSED] - Test Cases/SignUp/TCSG_001_Success_Register with valid input: Test Cases/SignUp/TCSG_001_Success_Register with valid input
+
+2023-12-19 15:38:58 - [TEST_STEP][PASSED] - randomNumber = RandomStringUtils.randomNumeric(5): null
+
+2023-12-19 15:38:58 - [TEST_STEP][PASSED] - username = "salsabilasy": null
+
+2023-12-19 15:38:58 - [TEST_STEP][PASSED] - random_email = username + randomNumber + "@mail.com": null
+
+2023-12-19 15:38:58 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:38:59 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-12-19 15:39:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-19 15:39:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:39:16 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/button_Sign Up")): Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:39:33 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_First Name"), "Salsabila"): Text 'Salsabila' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:39:34 - [MESSAGE][PASSED] - Text 'Salsabila' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:39:34 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Last Name"), "Aisy"): Text 'Aisy' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:39:35 - [MESSAGE][PASSED] - Text 'Aisy' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:39:35 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Email"), random_email): Text 'salsabilasy50795@mail.com' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:39:36 - [MESSAGE][PASSED] - Text 'salsabilasy50795@mail.com' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:39:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SignUp/input_Password"), "R2dZ4hvJ2uiOEdyVG7iA0Q=="): Text ****** has been set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:39:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:39:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SignUp/input_Confirmation Password"), "R2dZ4hvJ2uiOEdyVG7iA0Q=="): Text ****** has been set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:39:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:39:38 - [TEST_STEP][PASSED] - click(findTestObject("SignUp/button_Create Account")): Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:40:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("MyAccount/message_Success Register"), 0): Object 'Object Repository/MyAccount/message_Success Register' is present
+
+2023-12-19 15:40:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-19 15:41:27 - [MESSAGE][PASSED] - Object 'Object Repository/MyAccount/message_Success Register' is present
+
+2023-12-19 15:41:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-19 15:41:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUp/TCSG_002_Failed_Register using registered email" time="80.302" classname="Test Cases/SignUp/TCSG_002_Failed_Register using registered email" status="PASSED">
+         <system-out><![CDATA[2023-12-19 15:41:27 - [TEST_CASE][PASSED] - Test Cases/SignUp/TCSG_002_Failed_Register using registered email: Test Cases/SignUp/TCSG_002_Failed_Register using registered email
+
+2023-12-19 15:41:27 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:41:27 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-12-19 15:41:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-19 15:41:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:41:46 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/button_Sign Up")): Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:42:07 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_First Name"), "Salsabila"): Text 'Salsabila' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:42:08 - [MESSAGE][PASSED] - Text 'Salsabila' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:42:08 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Last Name"), "Aisy"): Text 'Aisy' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:42:09 - [MESSAGE][PASSED] - Text 'Aisy' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:42:09 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Email"), "salsa@test.com"): Text 'salsa@test.com' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:42:10 - [MESSAGE][PASSED] - Text 'salsa@test.com' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:42:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SignUp/input_Password"), "R2dZ4hvJ2uiOEdyVG7iA0Q=="): Text ****** has been set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:42:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:42:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SignUp/input_Confirmation Password"), "R2dZ4hvJ2uiOEdyVG7iA0Q=="): Text ****** has been set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:42:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:42:11 - [TEST_STEP][PASSED] - click(findTestObject("SignUp/button_Create Account")): Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:42:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-19 15:42:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-19 15:42:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SignUp/message_error"), "There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/SignUp/message_error' are matched.
+
+2023-12-19 15:42:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/message_error' are matched.
+
+2023-12-19 15:42:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-19 15:42:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUp/TCSG_003_Failed_Register using wrong confirmation password" time="26.706" classname="Test Cases/SignUp/TCSG_003_Failed_Register using wrong confirmation password" status="PASSED">
+         <system-out><![CDATA[2023-12-19 15:42:48 - [TEST_CASE][PASSED] - Test Cases/SignUp/TCSG_003_Failed_Register using wrong confirmation password: Test Cases/SignUp/TCSG_003_Failed_Register using wrong confirmation password
+
+2023-12-19 15:42:48 - [TEST_STEP][PASSED] - randomNumber = RandomStringUtils.randomNumeric(5): null
+
+2023-12-19 15:42:48 - [TEST_STEP][PASSED] - username = "salsabilasy": null
+
+2023-12-19 15:42:48 - [TEST_STEP][PASSED] - random_email = username + randomNumber + "@mail.com": null
+
+2023-12-19 15:42:48 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:42:48 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-12-19 15:42:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-19 15:42:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:42:55 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/button_Sign Up")): Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:43:09 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_First Name"), "Salsabila"): Text 'Salsabila' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:43:10 - [MESSAGE][PASSED] - Text 'Salsabila' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:43:10 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Last Name"), "Aisy"): Text 'Aisy' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:43:11 - [MESSAGE][PASSED] - Text 'Aisy' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:43:11 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Email"), random_email): Text 'salsabilasy38143@mail.com' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:43:12 - [MESSAGE][PASSED] - Text 'salsabilasy38143@mail.com' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:43:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SignUp/input_Password"), "R2dZ4hvJ2uiOEdyVG7iA0Q=="): Text ****** has been set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:43:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:43:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SignUp/input_Confirmation Password"), "RigbBhfdqOBGNlJIWM1ClA=="): Text ****** has been set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:43:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:43:13 - [TEST_STEP][PASSED] - click(findTestObject("SignUp/button_Create Account")): Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:43:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SignUp/message_passwordconfirmation-error"), "Please enter the same value again."): Actual text and expected text of test object 'Object Repository/SignUp/message_passwordconfirmation-error' are matched.
+
+2023-12-19 15:43:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/message_passwordconfirmation-error' are matched.
+
+2023-12-19 15:43:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-19 15:43:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUp/TCSG_004_Failed_Register with empty all fields" time="29.134" classname="Test Cases/SignUp/TCSG_004_Failed_Register with empty all fields" status="PASSED">
+         <system-out><![CDATA[2023-12-19 15:43:14 - [TEST_CASE][PASSED] - Test Cases/SignUp/TCSG_004_Failed_Register with empty all fields: Test Cases/SignUp/TCSG_004_Failed_Register with empty all fields
+
+2023-12-19 15:43:15 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:43:15 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-12-19 15:43:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-19 15:43:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://magento.softwaretestingboard.com/'
+
+2023-12-19 15:43:26 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/button_Sign Up")): Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/button_Sign Up' is clicked on
+
+2023-12-19 15:43:34 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_First Name"), ""): Text '' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:43:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/SignUp/input_First Name'
+
+2023-12-19 15:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Last Name"), ""): Text '' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:43:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/SignUp/input_Last Name'
+
+2023-12-19 15:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Email"), ""): Text '' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:43:37 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/SignUp/input_Email'
+
+2023-12-19 15:43:37 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Password"), ""): Text '' is set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:43:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/SignUp/input_Password'
+
+2023-12-19 15:43:38 - [TEST_STEP][PASSED] - setText(findTestObject("SignUp/input_Confirmation Password"), ""): Text '' is set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:43:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/SignUp/input_Confirmation Password'
+
+2023-12-19 15:43:38 - [TEST_STEP][PASSED] - click(findTestObject("SignUp/button_Create Account")): Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/SignUp/button_Create Account' is clicked on
+
+2023-12-19 15:43:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-19 15:43:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-19 15:43:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SignUp/message_firstname-error"), "This is a required field.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/SignUp/message_firstname-error' are matched.
+
+2023-12-19 15:43:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/message_firstname-error' are matched.
+
+2023-12-19 15:43:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SignUp/message_lastname-error"), "This is a required field.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/SignUp/message_lastname-error' are matched.
+
+2023-12-19 15:43:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/message_lastname-error' are matched.
+
+2023-12-19 15:43:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SignUp/message_emailaddress-error"), "This is a required field.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/SignUp/message_emailaddress-error' are matched.
+
+2023-12-19 15:43:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/message_emailaddress-error' are matched.
+
+2023-12-19 15:43:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SignUp/message_password-error"), "This is a required field.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/SignUp/message_password-error' are matched.
+
+2023-12-19 15:43:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/message_password-error' are matched.
+
+2023-12-19 15:43:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SignUp/message_passwordconfirmation-error"), "This is a required field.", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/SignUp/message_passwordconfirmation-error' are matched.
+
+2023-12-19 15:43:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SignUp/message_passwordconfirmation-error' are matched.
+
+2023-12-19 15:43:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-19 15:43:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-19 15:38:56 - [TEST_SUITE][PASSED] - SignUp: Test Cases/SignUp/TCSG_004_Failed_Register with empty all fields]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

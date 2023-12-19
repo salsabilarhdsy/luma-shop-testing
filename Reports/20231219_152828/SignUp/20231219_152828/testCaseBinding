@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/SignUp/TCSG_001_Success_Register with valid input","testCaseId":"Test Cases/SignUp/TCSG_001_Success_Register with valid input","iterationVariableName":""}
+{"testCaseName":"Test Cases/SignUp/TCSG_002_Failed_Register using registered email","testCaseId":"Test Cases/SignUp/TCSG_002_Failed_Register using registered email","iterationVariableName":""}
+{"testCaseName":"Test Cases/SignUp/TCSG_003_Failed_Register using wrong confirmation password","testCaseId":"Test Cases/SignUp/TCSG_003_Failed_Register using wrong confirmation password","iterationVariableName":""}
+{"testCaseName":"Test Cases/SignUp/TCSG_004_Failed_Register with empty all fields","testCaseId":"Test Cases/SignUp/TCSG_004_Failed_Register with empty all fields","iterationVariableName":""}

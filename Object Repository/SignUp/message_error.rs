@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message_error</name>
+   <tag></tag>
+   <elementGuidId>cf0f4a16-23e7-4bf4-8a8f-94a531acb6de</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='maincontent']/div[2]/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;maincontent&quot;)/div[@class=&quot;page messages&quot;]/div[2]/div[@class=&quot;messages&quot;]/div[@class=&quot;message-error error message&quot;]/div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.message-error.error.message > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>84100da7-3396-47e5-99cc-2dd6b9b43a87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bind</name>
+      <type>Main</type>
+      <value>html: $parent.prepareMessageForHtml(message.text)</value>
+      <webElementGuid>d725c346-4731-4ad3-abd2-1fb8e78a70e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.</value>
+      <webElementGuid>01387083-b9ee-4811-b324-c937807621a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;maincontent&quot;)/div[@class=&quot;page messages&quot;]/div[2]/div[@class=&quot;messages&quot;]/div[@class=&quot;message-error error message&quot;]/div[1]</value>
+      <webElementGuid>08d0311a-f7ca-4344-9d66-e6cc7ea9ef03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>messages</value>
+      <webElementGuid>57287371-a029-45b2-b972-e9efb59c835e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>message-error</value>
+      <webElementGuid>ce00cfcc-0e7a-4c4d-95a7-eab0a4159c81</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='maincontent']/div[2]/div[2]/div/div/div</value>
+      <webElementGuid>e305788b-670d-44a2-ac78-d91941798f6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create New Customer Account'])[2]/following::div[6]</value>
+      <webElementGuid>2800110e-883d-41dd-b6cd-9fae2b3cbe95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create an Account'])[2]/following::div[7]</value>
+      <webElementGuid>fe9743d5-6653-401e-9c9f-aad263bc7583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal Information'])[1]/preceding::div[2]</value>
+      <webElementGuid>73187637-4f2c-43f8-9b05-98b24153a754</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='There is already an account with this email address. If you are sure that it is your email address,']/parent::*</value>
+      <webElementGuid>aef7e396-9b20-43c9-86e4-dbfa878ff947</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div</value>
+      <webElementGuid>a6c8fc5f-1171-4172-961a-629c3e9a440f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.' or . = 'There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.')]</value>
+      <webElementGuid>f6f3b222-6270-4948-b494-e35712e9bd3d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
