@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCLG_003_Failed_Login with unregistered email</name>
+   <name>Contoh aja</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>298cf128-589b-4235-8250-ff0a51f45394</testCaseGuid>
+   <testCaseGuid>9376595d-7748-49ac-a484-5cb97dfe2caa</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ff887190-833b-4af1-b96c-c5856162dfe6</variableId>
+      <variableId>ed533cc8-870d-4564-8649-0a27a6b1633b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8ca4b836-b9b8-4014-b217-685ab7ef35b8</variableId>
+      <variableId>ee4117ad-0b32-43ff-86a7-ceec7502e5d4</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b0393f99-cc4a-40e4-ab6a-000c3b36b1a7</variableId>
+      <variableId>994e0943-b297-4eec-bfb8-33a6cecdd5b2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b4fbd6cd-d249-4bcc-b61d-3ea81a461dcb</variableId>
+      <variableId>d17861b0-f239-4316-856f-18d4fe4d6485</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f504c6c0-406c-48d2-a183-c68ae5bcd4d7</variableId>
+      <variableId>00baf3fa-9a3b-4bfb-866b-75860d5711fb</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'salsaasalsaa@test.com'</defaultValue>
+      <defaultValue>'salsa@test.com'</defaultValue>
       <description></description>
-      <id>ff887190-833b-4af1-b96c-c5856162dfe6</id>
+      <id>ed533cc8-870d-4564-8649-0a27a6b1633b</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
       <defaultValue>'Test12345678'</defaultValue>
       <description></description>
-      <id>8ca4b836-b9b8-4014-b217-685ab7ef35b8</id>
+      <id>ee4117ad-0b32-43ff-86a7-ceec7502e5d4</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Page_CustomerLogin/button_sign-in')</defaultValue>
+      <defaultValue>findTestObject('Page_HomePage/button_Profile')</defaultValue>
       <description></description>
-      <id>b0393f99-cc4a-40e4-ab6a-000c3b36b1a7</id>
+      <id>994e0943-b297-4eec-bfb8-33a6cecdd5b2</id>
       <masked>false</masked>
       <name>obj_clickable</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Page_CustomerLogin/message_failed-login')</defaultValue>
+      <defaultValue>findTestObject('Page_HomePage/message_login')</defaultValue>
       <description></description>
-      <id>b4fbd6cd-d249-4bcc-b61d-3ea81a461dcb</id>
+      <id>d17861b0-f239-4316-856f-18d4fe4d6485</id>
       <masked>false</masked>
       <name>obj_verify</name>
    </variable>
    <variable>
-      <defaultValue>'The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.'</defaultValue>
+      <defaultValue>'Welcome, Salsa Aisy!'</defaultValue>
       <description></description>
-      <id>f504c6c0-406c-48d2-a183-c68ae5bcd4d7</id>
+      <id>00baf3fa-9a3b-4bfb-866b-75860d5711fb</id>
       <masked>false</masked>
       <name>text_verify</name>
    </variable>

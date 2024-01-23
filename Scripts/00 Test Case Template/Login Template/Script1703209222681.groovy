@@ -17,26 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(url)
+WebUI.openBrowser(GlobalVariable.url)
 
-WebUI.click(findTestObject('Page_HomePage/button_sign-up'))
+WebUI.click(findTestObject('Page_HomePage/menu_sign-in'))
 
-WebUI.setText(findTestObject('Page_SignUp/input_first-name'), 'Salsabila')
+WebUI.sendKeys(findTestObject('Page_CustomerLogin/input_email'), email)
 
-WebUI.setText(findTestObject('Page_SignUp/input_last-name'), 'Aisy')
+WebUI.sendKeys(findTestObject('Page_CustomerLogin/input_password'), password)
 
-WebUI.setText(findTestObject('Page_SignUp/input_Email'), 'salsa@test.com')
+WebUI.click(findTestObject('Page_CustomerLogin/button_sign-in'))
 
-WebUI.setEncryptedText(findTestObject('Page_SignUp/input_Password'), 'R2dZ4hvJ2uiOEdyVG7iA0Q==')
+WebUI.verifyElementClickable(obj_clickable)
 
-WebUI.setEncryptedText(findTestObject('Page_SignUp/input_confirmation-password'), 'R2dZ4hvJ2uiOEdyVG7iA0Q==')
-
-WebUI.click(findTestObject('Page_SignUp/button_create-account'))
-
-WebUI.delay(3)
-
-WebUI.verifyElementText(findTestObject('Page_SignUp/message_error'), 'There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(obj_verify, text_verify)
 
 WebUI.closeBrowser()
 

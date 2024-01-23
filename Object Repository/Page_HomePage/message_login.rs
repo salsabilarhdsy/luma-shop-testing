@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message_login</name>
+   <tag></tag>
+   <elementGuidId>d266a212-768a-4464-b183-21f29250419a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-bind = concat(&quot;text: new String(&quot; , &quot;'&quot; , &quot;Welcome, %1!&quot; , &quot;'&quot; , &quot;).replace(&quot; , &quot;'&quot; , &quot;%1&quot; , &quot;'&quot; , &quot;, customer().fullname)&quot;)]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Welcome, Salsa Aisy!' or . = 'Welcome, Salsa Aisy!')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.logged-in</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>efe44956-724c-4470-9e35-8db132661044</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bind</name>
+      <type>Main</type>
+      <value>text: new String('Welcome, %1!').replace('%1', customer().fullname)</value>
+      <webElementGuid>c1022912-ff94-4e0f-98d2-e93210798f23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome, Salsa Aisy!</value>
+      <webElementGuid>40aefbd0-a7f6-42ea-be14-076880a180c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;cms-home cms-index-index page-layout-1column&quot;]/div[@class=&quot;page-wrapper&quot;]/header[@class=&quot;page-header&quot;]/div[@class=&quot;panel wrapper&quot;]/div[@class=&quot;panel header&quot;]/ul[@class=&quot;header links&quot;]/li[@class=&quot;greet welcome&quot;]/span[@class=&quot;logged-in&quot;]</value>
+      <webElementGuid>b1d18515-f51d-4cb3-b5fe-0ea5f1fe2a5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>customer-name</value>
+      <webElementGuid>83a88d19-92bb-4da9-952d-dc532e4d7beb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/span</value>
+      <webElementGuid>8f002945-7bf0-45d1-a90d-15e666f2fca9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Welcome, Salsa Aisy!' or . = 'Welcome, Salsa Aisy!')]</value>
+      <webElementGuid>fc236e69-8806-446e-9106-ea11bf2bbbd6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

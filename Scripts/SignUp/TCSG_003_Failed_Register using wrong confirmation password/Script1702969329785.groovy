@@ -25,21 +25,21 @@ def random_email = (username + randomNumber) + '@mail.com'
 
 WebUI.openBrowser(url)
 
-WebUI.click(findTestObject('HomePage/button_Sign Up'))
+WebUI.click(findTestObject('Page_HomePage/button_sign-up'))
 
-WebUI.setText(findTestObject('SignUp/input_First Name'), 'Salsabila')
+WebUI.setText(findTestObject('Page_SignUp/input_first-name'), 'Salsabila')
 
-WebUI.setText(findTestObject('SignUp/input_Last Name'), 'Aisy')
+WebUI.setText(findTestObject('Page_SignUp/input_last-name'), 'Aisy')
 
-WebUI.setText(findTestObject('SignUp/input_Email'), random_email)
+WebUI.setText(findTestObject('Page_SignUp/input_Email'), random_email)
 
-WebUI.setEncryptedText(findTestObject('SignUp/input_Password'), 'R2dZ4hvJ2uiOEdyVG7iA0Q==')
+WebUI.setEncryptedText(findTestObject('Page_SignUp/input_Password'), 'R2dZ4hvJ2uiOEdyVG7iA0Q==')
 
-WebUI.setEncryptedText(findTestObject('SignUp/input_Confirmation Password'), 'RigbBhfdqOBGNlJIWM1ClA==')
+WebUI.setEncryptedText(findTestObject('Page_SignUp/input_confirmation-password'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.click(findTestObject('SignUp/button_Create Account'))
+WebUI.click(findTestObject('Page_SignUp/button_create-account'))
 
-WebUI.verifyElementText(findTestObject('SignUp/message_passwordconfirmation-error'), 'Please enter the same value again.')
+WebUI.verifyElementText(findTestObject('Page_SignUp/message_passwordconfirmation-error'), 'Please enter the same value again.')
 
 WebUI.closeBrowser()
 

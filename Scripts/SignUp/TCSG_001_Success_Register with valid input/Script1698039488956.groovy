@@ -25,22 +25,22 @@ def random_email = (username + randomNumber) + '@mail.com'
 
 WebUI.openBrowser(url)
 
-WebUI.click(findTestObject('HomePage/button_Sign Up'))
+WebUI.click(findTestObject('Page_HomePage/button_sign-up'))
 
-WebUI.setText(findTestObject('SignUp/input_First Name'), 'Salsabila')
+WebUI.setText(findTestObject('Page_SignUp/input_first-name'), 'Salsabila')
 
-WebUI.setText(findTestObject('SignUp/input_Last Name'), 'Aisy')
+WebUI.setText(findTestObject('Page_SignUp/input_last-name'), 'Aisy')
 
 'Test12345678'
-WebUI.setText(findTestObject('SignUp/input_Email'), random_email)
+WebUI.setText(findTestObject('Page_SignUp/input_Email'), random_email)
 
-WebUI.setEncryptedText(findTestObject('SignUp/input_Password'), 'R2dZ4hvJ2uiOEdyVG7iA0Q==')
+WebUI.setEncryptedText(findTestObject('Page_SignUp/input_Password'), 'R2dZ4hvJ2uiOEdyVG7iA0Q==')
 
-WebUI.setEncryptedText(findTestObject('SignUp/input_Confirmation Password'), 'R2dZ4hvJ2uiOEdyVG7iA0Q==')
+WebUI.setEncryptedText(findTestObject('Page_SignUp/input_confirmation-password'), 'R2dZ4hvJ2uiOEdyVG7iA0Q==')
 
-WebUI.click(findTestObject('SignUp/button_Create Account'))
+WebUI.click(findTestObject('Page_SignUp/button_create-account'))
 
-WebUI.verifyElementPresent(findTestObject('MyAccount/message_Success Register'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_MyAccount/message_success-register'), 0)
 
 WebUI.closeBrowser()
 

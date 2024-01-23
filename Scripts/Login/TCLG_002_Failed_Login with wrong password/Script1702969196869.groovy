@@ -17,3 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('00 Test Case Template/Login Template'), [('email') : email, ('password') : email, ('obj_verify') : obj_verify
+        , ('obj_clickable') : obj_verify, ('text_verify') : text_verify], FailureHandling.CONTINUE_ON_FAILURE)
+

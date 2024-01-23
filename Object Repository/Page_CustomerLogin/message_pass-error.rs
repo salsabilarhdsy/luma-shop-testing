@@ -1,117 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_First Name</name>
+   <name>message_pass-error</name>
    <tag></tag>
-   <elementGuidId>bf49cb86-16ed-44e9-a60f-86340a33b5e3</elementGuidId>
+   <elementGuidId>0dbced3e-8f11-4a5b-9fe2-f484bd5ff909</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='firstname']</value>
+         <value>//div[@id='pass-error']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#firstname</value>
+         <value>#pass-error</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>div</value>
+      <webElementGuid>2348e5bb-bcce-4368-ab5b-f88f54edaced</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>for</name>
       <type>Main</type>
-      <value>text</value>
+      <value>pass</value>
+      <webElementGuid>792d1c0b-8027-4a5c-b910-72b680330ab6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>generated</name>
       <type>Main</type>
-      <value>firstname</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>firstname</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>First Name</value>
+      <value>true</value>
+      <webElementGuid>cf84f866-84e3-488d-84f8-73f8d61b7094</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input-text required-entry</value>
+      <value>mage-error</value>
+      <webElementGuid>2a178b0d-7326-4b90-a9fa-9302048595f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>pass-error</value>
+      <webElementGuid>4c603966-ac4b-4779-a260-4b9bf4a8fd69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-validate</name>
+      <name>text</name>
       <type>Main</type>
-      <value>{required:true}</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-required</name>
-      <type>Main</type>
-      <value>true</value>
+      <value>This is a required field.</value>
+      <webElementGuid>abf3345f-03d6-4016-b3c0-712da47aca0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;firstname&quot;)</value>
+      <value>id(&quot;pass-error&quot;)</value>
+      <webElementGuid>cd7ca4f5-0f88-4dbd-b444-4ad9b954156a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='firstname']</value>
+      <value>//div[@id='pass-error']</value>
+      <webElementGuid>f342210e-3316-40a9-84aa-d6b7964293aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='form-validate']/fieldset/div/div/input</value>
+      <value>//form[@id='login-form']/fieldset/div[3]/div/div</value>
+      <webElementGuid>9f07b3c9-f183-4f70-aa55-192da5d0aa35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//fieldset/div/div/input</value>
+      <value>//fieldset/div[3]/div/div</value>
+      <webElementGuid>b4b87c4b-109e-42eb-a386-754cd1b88f1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'firstname' and @name = 'firstname' and @title = 'First Name']</value>
+      <value>//div[@id = 'pass-error' and (text() = 'This is a required field.' or . = 'This is a required field.')]</value>
+      <webElementGuid>71f24dc0-24f5-4ba1-baec-b7dfd62f24aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

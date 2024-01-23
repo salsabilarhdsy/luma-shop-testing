@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCLG_003_Failed_Login with unregistered email</name>
+   <name>Login Template</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>298cf128-589b-4235-8250-ff0a51f45394</testCaseGuid>
+   <testCaseGuid>72a92a32-de75-4ca0-8328-bcd4c6d61a44</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ff887190-833b-4af1-b96c-c5856162dfe6</variableId>
+      <variableId>9339cb30-cedf-4cc7-a745-9df77d35c6e5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8ca4b836-b9b8-4014-b217-685ab7ef35b8</variableId>
+      <variableId>88035405-5dcf-4896-a680-793d717c2a7d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b0393f99-cc4a-40e4-ab6a-000c3b36b1a7</variableId>
+      <variableId>21f31c8c-d687-4962-af31-d94035ef97c1</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b4fbd6cd-d249-4bcc-b61d-3ea81a461dcb</variableId>
+      <variableId>f6ac98bb-3c6a-4085-b204-e8e7956e917a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f504c6c0-406c-48d2-a183-c68ae5bcd4d7</variableId>
+      <variableId>4a2642fe-5661-4301-82b7-61b93ea49d63</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'salsaasalsaa@test.com'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>ff887190-833b-4af1-b96c-c5856162dfe6</id>
+      <id>9339cb30-cedf-4cc7-a745-9df77d35c6e5</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
-      <defaultValue>'Test12345678'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>8ca4b836-b9b8-4014-b217-685ab7ef35b8</id>
+      <id>88035405-5dcf-4896-a680-793d717c2a7d</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>findTestObject('Page_CustomerLogin/button_sign-in')</defaultValue>
+      <defaultValue>findTestObject(null)</defaultValue>
       <description></description>
-      <id>b0393f99-cc4a-40e4-ab6a-000c3b36b1a7</id>
-      <masked>false</masked>
-      <name>obj_clickable</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestObject('Page_CustomerLogin/message_failed-login')</defaultValue>
-      <description></description>
-      <id>b4fbd6cd-d249-4bcc-b61d-3ea81a461dcb</id>
+      <id>21f31c8c-d687-4962-af31-d94035ef97c1</id>
       <masked>false</masked>
       <name>obj_verify</name>
    </variable>
    <variable>
-      <defaultValue>'The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.'</defaultValue>
+      <defaultValue>findTestObject(null)</defaultValue>
       <description></description>
-      <id>f504c6c0-406c-48d2-a183-c68ae5bcd4d7</id>
+      <id>f6ac98bb-3c6a-4085-b204-e8e7956e917a</id>
+      <masked>false</masked>
+      <name>obj_clickable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4a2642fe-5661-4301-82b7-61b93ea49d63</id>
       <masked>false</masked>
       <name>text_verify</name>
    </variable>

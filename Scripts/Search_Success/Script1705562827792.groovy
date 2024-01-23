@@ -17,26 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(url)
+WebUI.openBrowser(GlobalVariable.url)
 
-WebUI.click(findTestObject('Page_HomePage/button_sign-up'))
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_SignUp/input_first-name'), 'Salsabila')
+WebUI.waitForElementClickable(findTestObject('Page_HomePage/button_search'), 0)
 
-WebUI.setText(findTestObject('Page_SignUp/input_last-name'), 'Aisy')
+WebUI.click(findTestObject('Page_HomePage/input_search-bar'))
 
-WebUI.setText(findTestObject('Page_SignUp/input_Email'), 'salsa@test.com')
+WebUI.setText(findTestObject('Page_HomePage/input_search-bar'), 'Fusion Backpack')
 
-WebUI.setEncryptedText(findTestObject('Page_SignUp/input_Password'), 'R2dZ4hvJ2uiOEdyVG7iA0Q==')
+WebUI.click(findTestObject('Page_HomePage/button_search'))
 
-WebUI.setEncryptedText(findTestObject('Page_SignUp/input_confirmation-password'), 'R2dZ4hvJ2uiOEdyVG7iA0Q==')
+WebUI.waitForElementClickable(findTestObject('Page_Search Results/text_Fusion Backpack'), 0)
 
-WebUI.click(findTestObject('Page_SignUp/button_create-account'))
+product_title = WebUI.getText(findTestObject('Page_Search Results/text_Fusion Backpack'))
 
-WebUI.delay(3)
-
-WebUI.verifyElementText(findTestObject('Page_SignUp/message_error'), 'There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyMatch(product_title, 'Fusion Backpack', false)
 
 WebUI.closeBrowser()
 

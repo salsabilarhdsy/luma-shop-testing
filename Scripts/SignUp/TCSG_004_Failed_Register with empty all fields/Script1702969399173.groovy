@@ -19,31 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(url)
 
-WebUI.click(findTestObject('HomePage/button_Sign Up'))
+WebUI.click(findTestObject('Page_HomePage/button_sign-up'))
 
-WebUI.setText(findTestObject('SignUp/input_First Name'), '')
+WebUI.setText(findTestObject('Page_SignUp/input_first-name'), '')
 
-WebUI.setText(findTestObject('SignUp/input_Last Name'), '')
+WebUI.setText(findTestObject('Page_SignUp/input_last-name'), '')
 
-WebUI.setText(findTestObject('SignUp/input_Email'), '')
+WebUI.setText(findTestObject('Page_SignUp/input_Email'), '')
 
-WebUI.setText(findTestObject('SignUp/input_Password'), '')
+WebUI.setText(findTestObject('Page_SignUp/input_Password'), '')
 
-WebUI.setText(findTestObject('SignUp/input_Confirmation Password'), '')
+WebUI.setText(findTestObject('Page_SignUp/input_confirmation-password'), '')
 
-WebUI.click(findTestObject('SignUp/button_Create Account'))
+WebUI.click(findTestObject('Page_SignUp/button_create-account'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('SignUp/message_firstname-error'), 'This is a required field.', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Page_SignUp/message_firstname-error'), 'This is a required field.', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('SignUp/message_lastname-error'), 'This is a required field.', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Page_SignUp/message_lastname-error'), 'This is a required field.', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('SignUp/message_emailaddress-error'), 'This is a required field.', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Page_SignUp/message_emailaddress-error'), 'This is a required field.', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('SignUp/message_password-error'), 'This is a required field.', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Page_SignUp/message_password-error'), 'This is a required field.', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('SignUp/message_passwordconfirmation-error'), 'This is a required field.', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Page_SignUp/message_passwordconfirmation-error'), 'This is a required field.', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 
