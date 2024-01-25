@@ -29,7 +29,7 @@ WebUI.sendKeys(findTestObject('Page_HomePage/input_search-bar'), Keys.chord(Keys
 
 WebUI.waitForElementClickable(findTestObject('Page_Search Results/text_Fusion Backpack'), 0)
 
-product_title = WebUI.getText(findTestObject('Page_Search Results/text_Fusion Bsackpack'))
+product_title = WebUI.getText(findTestObject('Page_Search Results/text_Fusion Backpack'))
 
 WebUI.verifyMatch(product_title, 'Fusion Backpack', false)
 
