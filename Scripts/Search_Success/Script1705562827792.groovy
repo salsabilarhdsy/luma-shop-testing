@@ -25,11 +25,11 @@ WebUI.click(findTestObject('Page_HomePage/input_search-bar'))
 
 WebUI.setText(findTestObject('Page_HomePage/input_search-bar'), 'Fusion Backpack')
 
-WebUI.click(findTestObject('Page_HomePage/button_search'))
+WebUI.sendKeys(findTestObject('Page_HomePage/input_search-bar'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForElementClickable(findTestObject('Page_Search Results/text_Fusion Backpack'), 0)
 
-product_title = WebUI.getText(findTestObject('Page_Search Results/text_Fusion Backpack'))
+product_title = WebUI.getText(findTestObject('Page_Search Results/text_Fusion Bsackpack'))
 
 WebUI.verifyMatch(product_title, 'Fusion Backpack', false)
 
