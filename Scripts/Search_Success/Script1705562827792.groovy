@@ -21,8 +21,6 @@ WebUI.openBrowser(GlobalVariable.url)
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementClickable(findTestObject('Page_HomePage/button_search'), 0)
-
 WebUI.click(findTestObject('Page_HomePage/input_search-bar'))
 
 WebUI.setText(findTestObject('Page_HomePage/input_search-bar'), 'Fusion Backpack')
