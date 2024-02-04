@@ -17,26 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(url)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Page_HomePage/button_sign-up'))
+WebUI.navigateToUrl('https://magento.softwaretestingboard.com/')
 
-WebUI.setText(findTestObject('Page_SignUp/input_first-name'), 'Salsabila')
+WebUI.click(findTestObject('Object Repository/Visual Checkpoint/Page_Home Page/a_Subscribe to our mailing list'))
 
-WebUI.setText(findTestObject('Page_SignUp/input_last-name'), 'Aisy')
+WebUI.click(findTestObject('Object Repository/Visual Checkpoint/Page_Subscribe - Software Testing Board/input_Position_subscribe'))
 
-WebUI.setText(findTestObject('Page_SignUp/input_Email'), 'salsa@test.com')
+WebUI.click(findTestObject('Object Repository/Visual Checkpoint/Page_Subscribe - Software Testing Board/div_Almost finished. We need to confirm you_aebf89'))
 
-WebUI.setEncryptedText(findTestObject('Page_SignUp/input_Password'), 'R2dZ4hvJ2uiOEdyVG7iA0Q==')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Visual Checkpoint/Page_Subscribe - Software Testing Board/div_Almost finished. We need to confirm you_aebf89'), 
+    0)
 
-WebUI.setEncryptedText(findTestObject('Page_SignUp/input_confirmation-password'), 'R2dZ4hvJ2uiOEdyVG7iA0Q==')
-
-WebUI.click(findTestObject('Page_SignUp/button_create-account'))
-
-WebUI.delay(3)
-
-WebUI.verifyElementText(findTestObject('Page_SignUp/message_error'), 'There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.takeScreenshotAsCheckpoint('subscribe')
 
 WebUI.closeBrowser()
 

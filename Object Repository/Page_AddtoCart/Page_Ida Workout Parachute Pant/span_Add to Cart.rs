@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Add to Cart</name>
+   <tag></tag>
+   <elementGuidId>4957659d-7deb-4dc9-8b21-2f567263df1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='product-addtocart-button']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#product-addtocart-button > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ab6b4b41-3744-4975-8596-cd0c49a70bc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add to Cart</value>
+      <webElementGuid>c6dfbc8c-04e4-42c8-b7b8-2b444272667b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-addtocart-button&quot;)/span[1]</value>
+      <webElementGuid>044c7efc-358e-4b42-8e0f-bbbe0faa941d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='product-addtocart-button']/span</value>
+      <webElementGuid>329775f7-87c9-4850-afc2-286662cf3c45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/button/span</value>
+      <webElementGuid>f290f91a-9afa-4a5d-b7ea-720183331fb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Add to Cart' or . = 'Add to Cart')]</value>
+      <webElementGuid>f84ef45d-9250-4c40-8fbd-783455a5a6eb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

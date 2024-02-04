@@ -1,3 +1,44 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Visual Checkpoint/Page_Home Page/li_Bottle6",
+      "brokenLocator": "//li[@id\u003d\u0027qs-option-0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/ul/li",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Visual Checkpoint/Page_Affirm Water Bottle/span_Add to Cart",
+      "brokenLocator": "//button[@id\u003d\u0027product-addtocart-button\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[(text() \u003d \u0027Add to Cart\u0027 or . \u003d \u0027Add to Cart\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Visual Checkpoint/Page_Affirm Water Bottle/span_Add to Cart_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Visual Checkpoint/Page_Affirm Water Bottle/button_OK",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[7]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Visual Checkpoint/Page_Affirm Water Bottle/button_OK_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Visual Checkpoint/Page_Gabrielle Micro Sleeve Top/a_Compare Products 2 items",
+      "brokenLocator": "//a[contains(@href, \u0027https://magento.softwaretestingboard.com/catalog/product_compare/index/uenc/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9zZWN0aW9uL2xvYWQvP3NlY3Rpb25zPWNvbXBhcmUtcHJvZHVjdHMlMkNtZXNzYWdlcyZmb3JjZV9uZXdfc2VjdGlvbl90aW1lc3RhbXA9ZmFsc2UmXz0xNzA3MDU4MDg5Njc1/\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//header/div[2]/ul/li/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Visual Checkpoint/Page_Gabrielle Micro Sleeve Top/a_Compare Products 2 items_position.png"
+    }
+  ]
 }

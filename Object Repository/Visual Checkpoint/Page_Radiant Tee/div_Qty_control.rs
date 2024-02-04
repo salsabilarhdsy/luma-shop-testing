@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Qty_control</name>
+   <tag></tag>
+   <elementGuidId>8d46dc89-8329-4d81-a069-2235ebbd477b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.field.qty > div.control</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='product_addtocart_form']/div[2]/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>937ea777-87e5-439a-a445-10c96b687b2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>control</value>
+      <webElementGuid>853b3597-fed3-4a55-b82d-ec968bfe46e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product_addtocart_form&quot;)/div[@class=&quot;product-options-bottom&quot;]/div[@class=&quot;box-tocart&quot;]/div[@class=&quot;fieldset&quot;]/div[@class=&quot;field qty&quot;]/div[@class=&quot;control&quot;]</value>
+      <webElementGuid>55a51282-c4c9-4ee7-b0e6-14e9ce0e21d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='product_addtocart_form']/div[2]/div/div/div/div</value>
+      <webElementGuid>631a619d-cade-423e-8790-5463b7d7032c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/div/div/div/div</value>
+      <webElementGuid>83c67220-e61a-46dd-86d2-c6841e678c67</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

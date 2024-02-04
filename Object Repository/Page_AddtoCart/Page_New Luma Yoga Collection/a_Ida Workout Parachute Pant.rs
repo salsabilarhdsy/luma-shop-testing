@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Ida Workout Parachute Pant</name>
+   <tag></tag>
+   <elementGuidId>88a21e1b-324d-493e-9907-7dc44e572946</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/strong/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>24640ca3-6999-4970-a2bc-6ea78d7818b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>product-item-link</value>
+      <webElementGuid>179f9a71-e25a-4f9c-8ad7-37061e42d92f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://magento.softwaretestingboard.com/ida-workout-parachute-pant.html</value>
+      <webElementGuid>074071b9-5593-4506-a9ae-e7eed303fe68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Ida Workout Parachute Pant </value>
+      <webElementGuid>4e62ff5d-034a-4688-a007-5299cbe5da45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;products wrapper grid products-grid&quot;]/ol[@class=&quot;products list items product-items&quot;]/li[@class=&quot;item product product-item&quot;]/div[@class=&quot;product-item-info&quot;]/div[@class=&quot;product details product-item-details&quot;]/strong[@class=&quot;product name product-item-name&quot;]/a[@class=&quot;product-item-link&quot;]</value>
+      <webElementGuid>bd453baf-21b5-4c75-a91a-5a2ddf8a5268</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='maincontent']/div[3]/div/div[4]/ol/li[4]/div/div/strong/a</value>
+      <webElementGuid>c152ecc5-8183-44c1-b29c-f41578b2fc99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Ida Workout Parachute Pant')]</value>
+      <webElementGuid>db24824f-b2e9-4e34-9f20-e85febc45cb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://magento.softwaretestingboard.com/ida-workout-parachute-pant.html')])[2]</value>
+      <webElementGuid>846671e2-23d2-4523-bbef-bf803edfb47d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/div/strong/a</value>
+      <webElementGuid>ab74b251-8b74-4610-9ec4-52295e8f280c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://magento.softwaretestingboard.com/ida-workout-parachute-pant.html' and (text() = '
+Ida Workout Parachute Pant ' or . = '
+Ida Workout Parachute Pant ')]</value>
+      <webElementGuid>ee6ff157-afe8-43a3-9c27-6b12fe7b6e29</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

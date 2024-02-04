@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Sale</name>
+   <tag></tag>
+   <elementGuidId>8b10ddb2-10d0-4cb7-bd43-a9457a664603</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ui-id-8']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ui-id-8 > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>80a33b5a-1ec0-4569-b31b-4b0d1b82b163</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sale</value>
+      <webElementGuid>5fad29a5-aa07-44e5-ad5b-ae8618ece4e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-id-8&quot;)/span[1]</value>
+      <webElementGuid>f6b1a0cb-4975-4508-8ad2-8015cdbdfece</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='ui-id-8']/span</value>
+      <webElementGuid>e5e19364-cfe3-4499-bb01-29e24d6ee328</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a/span</value>
+      <webElementGuid>b67372bb-d194-4188-b577-1b72dbc2de88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Sale' or . = 'Sale')]</value>
+      <webElementGuid>3cd6736c-435e-46d2-bc98-62c9051b149e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

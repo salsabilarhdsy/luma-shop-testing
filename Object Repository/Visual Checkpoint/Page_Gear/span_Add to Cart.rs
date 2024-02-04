@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Add to Cart</name>
+   <tag></tag>
+   <elementGuidId>2638940c-7d88-473c-941b-e9d3f5feec00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='maincontent']/div[4]/div/div[2]/div[3]/div/div/ol/li[3]/div/div/div[3]/div/div/form/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>de3b34dc-ec0e-4be0-8d4b-ea6a504555fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add to Cart</value>
+      <webElementGuid>bc916bad-dfe5-4285-b7cb-884a4a4e4ed4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;widget block block-static-block&quot;]/div[@class=&quot;block widget block-products-list grid&quot;]/div[@class=&quot;block-content&quot;]/div[@class=&quot;products-grid grid&quot;]/ol[@class=&quot;product-items widget-product-grid&quot;]/li[@class=&quot;product-item&quot;]/div[@class=&quot;product-item-info&quot;]/div[@class=&quot;product-item-details&quot;]/div[@class=&quot;product-item-inner&quot;]/div[@class=&quot;product-item-actions&quot;]/div[@class=&quot;actions-primary&quot;]/form[1]/button[@class=&quot;action tocart primary&quot;]/span[1]</value>
+      <webElementGuid>6d43f37e-1a92-4d0d-a685-cde25df53a26</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='maincontent']/div[4]/div/div[2]/div[3]/div/div/ol/li[3]/div/div/div[3]/div/div/form/button/span</value>
+      <webElementGuid>3e3299bb-41ae-458d-a522-d2487cf4dc00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/div/div[3]/div/div/form/button/span</value>
+      <webElementGuid>8c08614c-a42b-4487-ba3b-fb0c51bd06e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Add to Cart' or . = 'Add to Cart')]</value>
+      <webElementGuid>fc3bb6a6-64e0-415f-8e42-91191ef5e028</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

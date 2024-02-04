@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>d44ecd00-98cb-4f5a-9eb8-fdfdcd08545f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='maincontent']/div[4]/div/div[2]/div/div/a[2]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.block-promo.sale-women > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>20124264-64e5-4782-9e0d-1305aa28bc46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://magento.softwaretestingboard.com/pub/media/wysiwyg/sale/sale-gear.jpg</value>
+      <webElementGuid>203e885e-04ea-47de-bf6b-37238f0983b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;widget block block-static-block&quot;]/div[@class=&quot;blocks-promo&quot;]/div[@class=&quot;block-promo-wrapper block-promo-2columns&quot;]/a[@class=&quot;block-promo sale-women&quot;]/img[1]</value>
+      <webElementGuid>1fa9c233-fc96-4743-9b5d-184b8c59b4fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='maincontent']/div[4]/div/div[2]/div/div/a[2]/img</value>
+      <webElementGuid>ba55d0a4-b9ce-41c1-a4b6-7e2a4c95b470</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://magento.softwaretestingboard.com/pub/media/wysiwyg/sale/sale-gear.jpg')]</value>
+      <webElementGuid>6e854ea5-b1b1-4881-90a2-cd1c5096ee11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/img</value>
+      <webElementGuid>44d3aa8b-ecae-485f-ab26-f7b2093eef16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://magento.softwaretestingboard.com/pub/media/wysiwyg/sale/sale-gear.jpg']</value>
+      <webElementGuid>36ba4ef7-b453-4638-9bb8-55ea85a5536f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

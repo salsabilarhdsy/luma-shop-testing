@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Shop New Yoga</name>
+   <tag></tag>
+   <elementGuidId>12268d77-a3dc-4fcc-97d3-e78d408099bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='maincontent']/div[4]/div/div[2]/div/a/span/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.more.button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1bcbc36d-d56d-4db1-b6d1-afc642398bda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>more button</value>
+      <webElementGuid>179a3e18-22ed-400e-a453-ba9d28eb9dee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shop New Yoga</value>
+      <webElementGuid>05d8637e-ea0b-4b67-a230-410281175090</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;widget block block-static-block&quot;]/div[@class=&quot;blocks-promo&quot;]/a[@class=&quot;block-promo womens-main&quot;]/span[@class=&quot;content&quot;]/span[@class=&quot;more button&quot;]</value>
+      <webElementGuid>630b65c9-4308-420c-9b54-25acca1c3033</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='maincontent']/div[4]/div/div[2]/div/a/span/span[2]</value>
+      <webElementGuid>8f810554-d521-47bc-a947-44ee6bfae138</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/a/span/span[2]</value>
+      <webElementGuid>de481ad3-91e2-4a10-bd1e-a7075993a849</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Shop New Yoga' or . = 'Shop New Yoga')]</value>
+      <webElementGuid>ea9e9c19-9360-4cb0-bfb1-57b000ae4d9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
