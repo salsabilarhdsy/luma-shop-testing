@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_1 stars</name>
+   <tag></tag>
+   <elementGuidId>b27cd359-2000-4bfb-bf96-af768a2f4319</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/main/div[2]/div/div[4]/div/div[6]/div[2]/div[2]/form/fieldset/fieldset/div/div[1]/div/div/label[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Rating_4_label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'rating-4']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>92fceaac-2a5f-40f6-817b-027d7e2cbbed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rating-4</value>
+      <webElementGuid>9c161ffb-c13e-4dc7-bd61-f5dd289d44ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>Rating_4</value>
+      <webElementGuid>92cb7fbc-ebf0-4e61-9865-626a7b009923</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>4 stars</value>
+      <webElementGuid>e73aa916-9348-4a1b-91f6-c0478e4a910c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Rating_4_label</value>
+      <webElementGuid>cfa2a800-b645-43fc-b41b-312ed1a99421</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+4 stars
+</value>
+      <webElementGuid>d18595cb-41e9-4eea-8947-fd5a257feee7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Rating_4_label&quot;)</value>
+      <webElementGuid>a05b3d6a-56f3-42ff-963e-23c15ca5c9ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='Rating_4_label']</value>
+      <webElementGuid>9a4a0d3c-6e4f-4312-acb9-6e844490ac22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='product-review-table']/div/div/label[4]</value>
+      <webElementGuid>f755075f-f995-46a3-8499-eca181292876</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[4]</value>
+      <webElementGuid>9154acdb-57cf-4e5b-bfbd-3eb10dc94349</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@title = '4 stars' and @id = 'Rating_4_label' and (text() = '
+4 stars
+' or . = '
+4 stars
+')]</value>
+      <webElementGuid>799ccb7b-22a3-4be3-8172-eae9938a624f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Hero Hoodie</name>
+   <tag></tag>
+   <elementGuidId>70772a16-664f-4cd4-b1c5-31dc6d9631f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='maincontent']/div[3]/div/div[3]/div[3]/div/div/ol/li[4]/div/div/strong/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>25daada9-53da-4373-99d2-3f7c12fa1e5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Hero Hoodie</value>
+      <webElementGuid>d6a7d3e5-e416-4307-9fec-a5c8563e3094</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://magento.softwaretestingboard.com/hero-hoodie.html</value>
+      <webElementGuid>e4da1db1-1219-4b5b-982e-589c877f6ee9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>product-item-link</value>
+      <webElementGuid>e16dd2c2-429d-4281-ba28-1b95e40414cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Hero Hoodie </value>
+      <webElementGuid>45c12ce3-6795-4abf-9dc5-d80d88b99a86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;widget block block-static-block&quot;]/div[@class=&quot;block widget block-products-list grid&quot;]/div[@class=&quot;block-content&quot;]/div[@class=&quot;products-grid grid&quot;]/ol[@class=&quot;product-items widget-product-grid&quot;]/li[@class=&quot;product-item&quot;]/div[@class=&quot;product-item-info&quot;]/div[@class=&quot;product-item-details&quot;]/strong[@class=&quot;product-item-name&quot;]/a[@class=&quot;product-item-link&quot;]</value>
+      <webElementGuid>46994812-df7e-4946-a4c7-893864ce5b5f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='maincontent']/div[3]/div/div[3]/div[3]/div/div/ol/li[4]/div/div/strong/a</value>
+      <webElementGuid>b7717fd9-33ed-49b1-9ae6-0ebe57aa16f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Hero Hoodie')]</value>
+      <webElementGuid>3aa64e7d-4f8e-45ba-8bb4-fd73a1ada09c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://magento.softwaretestingboard.com/hero-hoodie.html')])[2]</value>
+      <webElementGuid>7d2729c4-3820-4f13-a304-02f194b35812</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/div/strong/a</value>
+      <webElementGuid>763b922f-d2b5-4859-b9d8-7539776e4596</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@title = 'Hero Hoodie' and @href = 'https://magento.softwaretestingboard.com/hero-hoodie.html' and (text() = '
+Hero Hoodie ' or . = '
+Hero Hoodie ')]</value>
+      <webElementGuid>74a79c5e-80d7-493a-84f1-f3d1bd892193</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

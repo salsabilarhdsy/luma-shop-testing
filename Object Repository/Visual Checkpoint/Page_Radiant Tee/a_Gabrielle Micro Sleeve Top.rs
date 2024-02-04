@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Gabrielle Micro Sleeve Top</name>
+   <tag></tag>
+   <elementGuidId>208d30f6-14e4-4123-ace2-b8444becdaa4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='maincontent']/div[2]/div/div[6]/div[2]/div/ol/li[2]/div/div/strong/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1207c672-bb29-41dd-ae91-49f4489f1a85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>product-item-link</value>
+      <webElementGuid>159675e4-3288-471a-a087-f23ed90634f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Gabrielle Micro Sleeve Top</value>
+      <webElementGuid>1a17ea07-4dbb-4f6f-aabc-2d565f48a920</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://magento.softwaretestingboard.com/gabrielle-micro-sleeve-top.html</value>
+      <webElementGuid>6479d099-9528-40b7-897c-2b8ab0f24bd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Gabrielle Micro Sleeve Top</value>
+      <webElementGuid>ff93f649-577b-4925-9e14-82d9eda4d198</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;maincontent&quot;)/div[@class=&quot;columns&quot;]/div[@class=&quot;column main&quot;]/div[@class=&quot;block upsell&quot;]/div[@class=&quot;block-content content&quot;]/div[@class=&quot;products wrapper grid products-grid products-upsell&quot;]/ol[@class=&quot;products list items product-items&quot;]/li[@class=&quot;item product product-item&quot;]/div[@class=&quot;product-item-info&quot;]/div[@class=&quot;product details product-item-details&quot;]/strong[@class=&quot;product name product-item-name&quot;]/a[@class=&quot;product-item-link&quot;]</value>
+      <webElementGuid>9dd7ea17-d9cc-4013-bab9-359d0cd6e673</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='maincontent']/div[2]/div/div[6]/div[2]/div/ol/li[2]/div/div/strong/a</value>
+      <webElementGuid>b8ba155b-e9ca-42e0-b917-92a7e2d201ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Gabrielle Micro Sleeve Top')]</value>
+      <webElementGuid>d9924201-5466-434c-af45-9ce64e874861</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://magento.softwaretestingboard.com/gabrielle-micro-sleeve-top.html')])[2]</value>
+      <webElementGuid>b2d6b73a-74f3-4822-87db-3d5acabd4f43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/div/strong/a</value>
+      <webElementGuid>eaedf2df-4468-488c-ad63-56273ed738a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@title = 'Gabrielle Micro Sleeve Top' and @href = 'https://magento.softwaretestingboard.com/gabrielle-micro-sleeve-top.html' and (text() = '
+Gabrielle Micro Sleeve Top' or . = '
+Gabrielle Micro Sleeve Top')]</value>
+      <webElementGuid>76f5d9c1-9dbb-41bc-a4fc-e82931589c2d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
